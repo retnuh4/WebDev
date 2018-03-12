@@ -1,12 +1,85 @@
 /* style sheet*/
+body{
+    background-color: darkslategrey;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
-body { font-family: "Palatino" }
-body { color: white }
-body { background-color: dimgray}
-a.nodec { text-decoration: none }
-a:hover { text-decoration: underline }
-li, em { font-weight: bold }
-h1, em { text-decoration: underline }
-h1, am { text-align: center }
-ul { margin-left: 20px }
-ul ul { font-size: medium}
+h1, em {font-weight: bold}
+h1, em {text-decoration: underline}
+h1, em {text-align: center}
+p, em {text-align: center}
+
+
+ul {list-style-type: none;}
+body {font-family: "Comic Sans MS", cursive, sans-serif}
+
+.Month{
+    padding: 50px 0;
+    width: 100%;
+    background: darkslateblue;
+    text-align: center;
+}
+
+.Month ul{
+    padding: 0;
+    margin: 0;
+}
+
+.Month ul li{
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Month .Prev{
+    color: white;
+    float: left;
+    padding-top: 10px;
+}
+
+.Month .Next{
+    color: white;
+    float: right;
+    padding-top: 10px;
+}
+
+.days{
+    margin: 0;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+.days li{
+    list-style-type: none;
+    display: inline-block;
+    width:  14%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.dates{
+    padding: 10px 0;
+    background: silver;
+    margin: 0;
+}
+
+.dates li{
+    list-style-type: none;
+    display: inline-block;
+    border: black;
+    width: 14%;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: black;
+}
+
+.dates li .active{
+    padding: 5px;
+    background: white;
+    color: salmon;
+}
