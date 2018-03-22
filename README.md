@@ -7,3 +7,5 @@ the read me for the webdev project. we can put ideas or whatever here it doesn't
 
 
 **update: 3/14/18 --- I made the calendar in python using the calendar library and it was much easier and formatted as a table which allowed for a border unlike the list in html. from here i think we have a pretty good base to start adding functionalities.
+
+**update: 3/22/18 --- added the python code 
